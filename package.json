@@ -4,9 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon ./src/server.ts",
+    "dev": "nodemon ./src/index.ts",
     "build": "tsc -p .",
-    "start": "ts-node ./dist/server.js"
+    "start": "ts-node ./dist/index.js"
   },
   "dependencies": {
     "@green-api/whatsapp-api-client": "^0.3.35",
